@@ -1,0 +1,17 @@
+<web-app>
+
+<servlet>
+    <servlet-name>trisha</servlet-name>
+    <servlet-class>com.example.Test</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>trisha</servlet-name>
+    <url-pattern>/trisha</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+</welcome-file-list>
+
+
+</web-app>
